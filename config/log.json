@@ -1,0 +1,23 @@
+{
+    "logger" : [{
+        "name"  : "web",
+        "type"  : "file",
+        "level" : "debug",
+        "path"  : "./log/web.log",
+        "max"   : "10240000"
+    },{
+        "name"  : "web",
+        "type"  : "console",
+        "level" : "debug"
+    },{
+        "name"  : "serverInfo",
+        "type"  : "file",
+        "level" : "debug",
+        "path"  : "./log/serverInfo.log",
+        "max"   : "10240000"
+    },{
+        "name"  : "serverInfo",
+        "type"  : "console",
+        "level" : "debug"
+    }]
+}

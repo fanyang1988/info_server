@@ -1,0 +1,14 @@
+{
+    "GameServer01" : {
+        "IP" : "127.0.0.1",
+        "Port" : "3304",
+        "RedisIP" : "127.0.0.1",
+        "RedisPort":"6379"
+    },
+    "GameServer02" : {
+        "IP" : "127.0.0.2",
+        "Port" : "3304",
+        "RedisIP" : "127.0.0.2",
+        "RedisPort":"6379"
+    }
+}
